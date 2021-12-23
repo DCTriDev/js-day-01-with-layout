@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <!--    Bootstrap    -->
+    <link rel="stylesheet" href="/boostrap/bootstrap.min.css">
+    <title>BT JS</title>
+</head>
+<body class="text-center py-5 bg-light container">
+    <div class="text-primary mb-5">
+        <h1>Bài Tập JS - Layout</h1>
+    </div>
+
+    <!--    Bài Tập 1    -->
+    <div class="border border-primary rounded py-3 my-3">
+        <h2>Bài Tập 1</h2>
+        <h3>Tính Lương Nhân Viên</h3>
+        <p>Nhập số ngày công:</p>
+        <input id="ngayCong" placeholder="Nhập số ngày công" type="number"><br><br>
+        <button class="btn btn-primary" onclick="TinhTienLuong()">Xem Kết Quả</button>
+        <br>
+        <p>Số tiền lương là:</p>
+        <input id="tienLuong" placeholder="Tổng Lương" readonly type="text">
+    </div>
+    <!--    Bài Tập 2    -->
+    <div class="border border-primary rounded py-3 my-3">
+        <h2>Bài Tập 2</h2>
+        <h3>Tính Trung Bình Cộng Của 5 Số Thực</h3>
+        <p>Nhập giá trị của năm số:</p>
+        <input id="gtri_1" placeholder="Nhập vào số thứ nhất" type="number"><br><br>
+        <input id="gtri_2" placeholder="Nhập vào số thứ hai" type="number"><br><br>
+        <input id="gtri_3" placeholder="Nhập vào số thứ ba" type="number"><br><br>
+        <input id="gtri_4" placeholder="Nhập vào số thứ tư" type="number"><br><br>
+        <input id="gtri_5" placeholder="Nhập vào số thứ năm" type="number"><br><br>
+        <button class="btn btn-primary" onclick="TrungBinhCong()">Xem Kết Quả</button>
+        <p> Giá trị Trung Bình Cộng là :</p>
+        <input id="trungBinhCong" placeholder="Giá trị Trung Bình Cộng" readonly type="text">
+    </div>
+    <!--    Bài Tập 3-->
+    <div class="border border-primary rounded py-3 my-3">
+        <h2>Bài Tập 3</h2>
+        <h3>Quy Đổi Tiền</h3>
+        <p>Mời nhập số tiền USD muốn đổi sang VND:</p>
+        <input id="usd" placeholder="Nhập giá trị USD" type="number"><br><br>
+        <button class="btn btn-primary" onclick="ChuyenDoiTien()">Xem Kết Quả</button>
+        <br>
+        <p>Giá trị VND là:</p>
+        <input id="vnd" placeholder="Giá trị VND" readonly type="text">
+    </div>
+    <!--    Bài Tập 4-->
+    <div class="border border-primary rounded py-3 my-3">
+        <h2>Bài Tập 4</h2>
+        <h3>Tính Chu Vi, Diện Tích Hình Chữ Nhật</h3>
+        <p>Mời nhập giá trị chiều dài và chiều rộng:</p>
+        <input id="chieuDai" placeholder="Nhập Chiều Dài" type="number"><br><br>
+        <input id="chieuRong" placeholder="Nhập Chiều Rộng" type="number"><br><br>
+        <button class="btn btn-primary" onclick="XuLyHinhChuNhat()">Xem Kết Quả</button>
+        <br>
+        <p>Giá trị Chu Vi là:</p>
+        <input id="chuVi" placeholder="Giá trị Chu Vi" readonly type="text"><br>
+        <p>Giá trị Diện Tích là:</p>
+        <input id="dienTich" placeholder="Giá trị Diện Tích" readonly type="text">
+    </div>
+    <!--    Bài Tập 5-->
+    <div class="border border-primary rounded py-3 my-3">
+        <h2>Bài Tập 5</h2>
+        <h3>Tính Kí Số</h3>
+        <p>Mời nhập số tự nhiên có 2 chữ số:</p>
+        <input id="soTuNhien" placeholder="Số Tự Nhiên 2 Chữ Số" type="number"><br><br>
+        <button class="btn btn-primary" onclick="TinhKySo()">Xem Kết Quả</button>
+        <br>
+        <p>Giá trị tổng 2 Ký Số là:</p>
+        <input id="kySo" placeholder="Giá trị Ký Số" readonly type="text">
+    </div>
+
+
+    <!--    =============================Javascript=======================    -->
+    <!--    jQuery-->
+    <script src="/jQuery/jquery-3.6.0.min.js"></script>
+    <!--    Boostrap    -->
+    <script src="/boostrap/bootstrap.min.js"></script>
+    <script src="/boostrap/bootstrap.bundle.min.js"></script>
+    <!--    Bài Tập 1 JS-->
+    <script src="./js/bt1.js"></script>
+    <!--    Bài Tập 2 JS-->
+    <script src="./js/bt2.js"></script>
+    <!--    Bài Tập 3 JS-->
+    <script src="./js/bt3.js"></script>
+    <!--    Bài tập 4 JS-->
+    <script src="./js/bt4.js"></script>
+    <!--    Bài tập 5 JS-->
+    <script src="./js/bt5.js"></script>
+</body>
+</html>
